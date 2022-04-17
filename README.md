@@ -2,7 +2,7 @@
 
 ## Description
 
-Based on the 2022 edition of the Cisco ACI and Calico Integration Best Practices white paper, connecting Calico BGP clusters with new ACI features (Floating SVI and Dynamic BGP). This tool can be used standalone or called as a component of our Multi-cloud Middleware System (MMS).
+Based on the latest version of the best practices for Cisco ACI integration with Calico (2022 version white paper), this script automates the configuration of an ACI network to connect to a Calico BGP cluster by using the new features of ACI, such as Floating SVI, Dynamic BGP, etc.
 
 
 ## Features
