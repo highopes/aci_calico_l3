@@ -24,6 +24,9 @@ Compared to the best practices white paper there are the following differences:
 
 * The automated deployment of the Kubernetes Calico cluster side is not included here, that part will be included in our CMP system.
 
+* Note that the control-plate-endpoint address of the Kubernetes cluster must be  in-band routable; automated deployments do not take into account the routing adjustments that have to be configured when the address falls out-of-band, where some services will not work in Calico L3 mode (e.g. Metrics-server service)
+
+
 ## Environment
 
 * Python 3+
